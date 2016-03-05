@@ -1,0 +1,16 @@
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.11'
+}
+
+allprojects {
+    group = 'org.sample'
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    dependencies {
+    }
+}
